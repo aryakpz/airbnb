@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb | Holiday rentals, c</title>
+    <link rel="icon" type="image/png"
+        href="https://a0.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navhead">
+            <div>
+                <img class="logo1" src="images/logo_with_text.svg" alt="">
+                <img class="logo2" src="images/logo.svg" alt="">
+            </div>
+            <div class="staybar">
+                <button id="staydark">Stays</button>
+                <button>Experiences</button>
+                <button>Online Experiences</button>
+            </div>
+            <div>
+
+                <div class="air">
+                    <button>Airbnb your home</button>
+                </div>
+
+                <div class="btn">
+                    <button>
+                        <img src="images/web.svg" alt="">
+                    </button>
+                </div>
+
+                <div class="user">
+                    <button>
+                        <img src="images/menu.svg" alt="">
+                        <img id="user" src="images/profile.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+     <div class="searchbar hidden">
+        <div class="last">
+            <button>
+                <img src="images/search.svg" alt="">
+            </button>
+            <span>
+            <label>Where to?</label>
+            <input type="text" name="" id="" placeholder="Anywhere - Any week - Any guests">
+           </span>
+        </div>
+     </div>
+
+
+        <div class="searchbar">
+            <div class="s1 where">
+                <label>Where</label>
+                <input type="text" name="" id="" placeholder="Search destinations">
+
+            </div>
+
+            <div class="s1 check">
+                <label for="">Check in</label>
+                <input type="text" name="" id="" placeholder="Add dates">
+            </div>
+
+            <div class="s1 check">
+                <label for="">Check out</label>
+                <input type="text" placeholder="Add dates">
+
+
+            </div>
+
+            <div class="s1 who">
+                <label for="">Who</label>
+                <input type="text" name="" id="" Placeholder="Add guests">
+            </div>
+            <div class="s2">
+                <button>
+                    <img src="images/search.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="mainicon">
+
+        <div class="subicon">
+
+            <div class="iconbar">
+                <div id="one">
+                    <img class="icon"
+                        src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+                        alt="">
+                    <p>Icons</p>
+                </div>
+            </div>
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"
+                        alt="">
+                    <p>OMG!</p>
+                </div>
+            </div>
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg"
+                        alt="">
+                    <p>Cabins</p>
+                </div>
+            </div>
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg"
+                        alt="">
+                    <p>Farms</p>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/6b639c8d-cf9b-41fb-91a0-91af9d7677cc.jpg"
+                        alt="">
+                    <p>Golfing</p>
+                </div>
+            </div>
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src=" https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg
+                            " alt="">
+                    <p>Design</p>
+                </div>
+            </div>
+
+
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg"
+                        alt="">
+                    <p>Beachfront</p>
+                </div>
+            </div>
+
+
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"
+                        alt="">
+                    <p>Amazing pools</p>
+                </div>
+            </div>
+            <div class="iconbar">
+                <div> <img class="icon" src="https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg"
+                        alt="">
+                    <p>Luxe</p>
+                </div>
+            </div>
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/4221e293-4770-4ea8-a4fa-9972158d4004.jpg"
+                        alt="">
+                    <p>Caves</p>
+                </div>
+            </div>
+
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg"
+                        alt="">
+                    <p>Amazing views</p>
+                </div>
+            </div>
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg"
+                        alt="">
+                    <p>Design</p>
+                </div>
+            </div>
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg"
+                        alt="">
+                    <p>Treehouses</p>
+                </div>
+            </div>
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg"
+                        alt="">
+                    <p>Countryside</p>
+                </div>
+            </div>
+
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/3271df99-f071-4ecf-9128-eb2d2b1f50f0.jpg"
+                        alt="">
+                    <p>Tiny homes</p>
+                </div>
+            </div>
+
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src=" https://a0.muscache.com/pictures/248f85bf-e35e-4dc3-a9a1-e1dbff9a3db4.jpg
+                            " alt="">
+                    <p>Top of world</p>
+                </div>
+            </div>
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/5ed8f7c7-2e1f-43a8-9a39-4edfc81a3325.jpg"
+                        alt="">
+                    <p>Breakfasts</p>
+                </div>
+            </div>
+
+
+
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg"
+                        alt="">
+                    <p>Castles</p>
+                </div>
+            </div>
+
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg"
+                        alt="">
+                    <p>Lakefront</p>
+                </div>
+            </div>
+
+
+
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/ed8b9e47-609b-44c2-9768-33e6a22eccb2.jpg"
+                        alt="">
+                    <p>Top cities</p>
+                </div>
+            </div>
+
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/d7445031-62c4-46d0-91c3-4f29f9790f7a.jpg"
+                        alt="">
+                    <p>Earth homes</p>
+                </div>
+            </div>
+
+
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.jpg"
+                        alt="">
+                    <p>Domes</p>
+                </div>
+            </div>
+
+            <div class="iconbar">
+                <div>
+                    <img class="icon" src="https://a0.muscache.com/pictures/c8bba3ed-34c0-464a-8e6e-27574d20e4d2.jpg"
+                        alt="">
+                    <p>Skilling</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="arrowbtn">
+            <button>
+                <img src="/home/arya/Desktop/airbnb/images/next.png" alt="">
+            </button>
+        </div>
+    </div>
+
+
+
+    <div class="mainbody">
+        <div class="subbody">
+            <div class="gridsec ">
+                <div class="buttonsec one">
+                    <div class="live">Live</div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+
+                <div class="imagesec">
+
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=720&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1> Train at the X-Mansion</h1>
+                    <p> Hosted by Jubilee</p>
+                    <span><b>₹3,182</b> per guest</span>
+                </div>
+            </div>
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live">Live</div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MjI1MjI0NDQ0MzYzMjM4Mg%3D%3D/original/ae3426d1-fba4-44d4-bed2-690426f25f7a.jpeg?im_w=720&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1>Open the Olympic Games at Musée d'Orsay</h1>
+                    <p>Hosted by Mathieu Lehanneur</p>
+                    <span><b>Coming 13 June</b>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live"></div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="
+                        https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4MzUyMzk5Mjc3MDU5Nw%3D%3D/original/d62c78db-3c98-46e7-8566-d685d5c689f3.png?im_w=720&im_q=highq
+                                  " alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1>Make core memories with Inside Out 2</h1>
+                    <p>Hosted by Joy</p>
+
+                    <span><b>Coming June</b>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live">Live</div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4OTQ5ODA0MDcwMTE4Mw%3D%3D/original/4f7a276e-9995-4b32-bda6-300de0619b25.png?im_w=720&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1>Stay in Prince’s Purple Rain house</h1>
+                    <p>Hosted by Wendy and Lisa</p>
+
+                    <span><b>Coming August</b>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live">Live</div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NzY0ODgzNzUzNjQzNw%3D%3D/original/cda19e4c-ae11-47b1-831b-a29f94ab76dc.png?im_w=720&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1>Go VIP with Kevin Hart</h1>
+                    <p>Hosted by Kevin Hart</p>
+
+                    <span><b>Coming August</b>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live">Live</div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjMyMzc5Mzc2MTc3OTEzMg%3D%3D/original/01819c16-43a1-4aee-9957-9edce6eb8e16.png?im_w=720&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1>Join a living room session with Doja</h1>
+                    <p> Hosted by Doja Cat
+                    </p>
+                    <span><b>Coming October</b>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live">Live</div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNTQ0NTEyMzEwMTI3NDg1MQ%3D%3D/original/bd73f0f8-9057-4bbc-ad70-1db13eb5c03f.png?im_w=720&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1>Wake up in the Musée d’Orsay</h1>
+                    <p> Hosted by Mathieu Lehanneur</p>
+
+                    <span><b>Sold out</b>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live">Live</div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE0ODQ2MDI1NTE4MDMzOTQ4MQ%3D%3D/original/c92634d0-4964-439a-905d-b9129af14d34.jpeg?im_w=720&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1>Design your Incredibles Supersuit</h1>
+                    <p>Hosted by Edna Mode</p>
+
+                    <span><b>Sold out</b>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live">Live</div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTg2NzMzNDc0MDk1Nzg4NA%3D%3D/original/b676fc8d-8250-4df0-a7cb-728b0486e371.jpeg?im_w=720&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1>Crash at the X-Mansion</h1>
+                    <p>Hosted by Jubilee</p>
+
+                    <span><b>Sold out</b>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live">Live</div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NjI3OTI1MjIxNDQyOA%3D%3D/original/bc989f2d-eca8-4bcf-a9b0-b70b8e685a64.jpeg?im_w=720&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1>Live like Bollywood star Janhvi Kapoor</h1>
+                    <p>Hosted by Janhvi Kapoor
+                    </p>
+                    <span><b>Sold out</b>
+                    </span>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live">Live</div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjI0NzUwMDUwMTg2Mzg5MA%3D%3D/original/99417998-fa44-4c75-ae77-287c1468977b.jpeg?im_w=720&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1>Go on tour with Feid</h1>
+                    <p> Hosted by FeidHosted by Feid
+
+                    </p>
+                    <span><b>Sold out</b>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live">Live</div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA3NzgxMzcwNzcxOTUzNQ%3D%3D/original/872f434b-9348-4ff1-8c6f-754fdbab4010.jpeg?im_w=720&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1>Game with Khaby Lame</h1>
+                    <p>Hosted by Khaby Lame
+                    </p>
+
+                    <span><b>Sold out</b>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live">Live</div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjE4NTg5MzIzNjI0NjI2MA%3D%3D/original/e6b26733-2c15-47d9-b097-6968b39bb697.jpeg?im_w=720&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+
+                    <h1>Drift off in the Up house</h1>
+                    <p>Hosted by Carl Fredricksen
+                    </p>
+
+                    <span><b>Sold out</b>
+                    </span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="heading">
+        <h1>Past experiences</h1>
+    </div>
+
+
+    <div class="mainbody">
+        <div class="subbody">
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live"></div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyMzIwMTE1Njc3Njg0MTIzOQ%3D%3D/original/fb9dcb8d-7fa5-402f-91ae-fa2a26e9f097.png?im_w=1440&im_q=highq"
+                        alt="">
+                </div>
+
+                <div class="datasec">
+                    <h1>Design your Incredibles Supersuit</h1>
+                    <p>Hosted by Edna Mode</p>
+                    <span><b>₹0</b> per guest</span>
+                </div>
+            </div>
+
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live"></div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-881808599061267756/original/b16970cf-1d55-4edd-bb1f-e1735d0a228e.jpeg?im_w=1440&im_q=highq"
+                        alt="">
+                </div>
+                <div class="datasec">
+                    <h1>Design your Incredibles Supersuit</h1>
+                    <p>Hosted by Edna Mode</p>
+                    <span><b>₹0</b> per guest</span>
+                </div>
+            </div>
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live"></div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-857387972692815761/original/d106e0ef-f825-4ff8-baf7-86256a54fbd5.jpeg?im_w=1440&im_q=highq"
+                        alt="">
+                </div>
+                <div class="datasec">
+                    <h1>Design your Incredibles Supersuit</h1>
+                    <p>Hosted by Edna Mode</p>
+                    <span><b>₹0</b> per guest</span>
+                </div>
+            </div>
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live"></div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-694055224756906854/original/76f85a0c-b3e2-4f1d-9aa9-d7838f2393c6.jpeg?im_w=1440&im_q=highq"
+                        alt="">
+                </div>
+                <div class="datasec">
+                    <h1>Design your Incredibles Supersuit</h1>
+                    <p>Hosted by Edna Mode</p>
+                    <span><b>₹0</b> per guest</span>
+                </div>
+            </div>
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live"></div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-782615921189136934/original/c67f78f1-5807-449a-9a88-753b7fa62d6a.jpeg?im_w=1440&im_q=highq"
+                        alt="">
+                </div>
+                <div class="datasec">
+                    <h1>Design your Incredibles Supersuit</h1>
+                    <p>Hosted by Edna Mode</p>
+                    <span><b>₹0</b> per guest</span>
+                </div>
+            </div>
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live"></div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-53274539/original/365299e3-f926-47ee-bcbf-606d6a0370b9.jpeg?im_w=1440&im_q=highq"
+                        alt="">
+                </div>
+                <div class="datasec">
+                    <h1>Design your Incredibles Supersuit</h1>
+                    <p>Hosted by Edna Mode</p>
+                    <span><b>₹0</b> per guest</span>
+                </div>
+            </div>
+            <div class="gridsec">
+                <div class="buttonsec">
+                    <div class="live"></div>
+                    <button>
+                        <img src="images/arrow_up.svg" alt="">
+                    </button>
+                </div>
+                <div class="imagesec">
+                    <img src="https://a0.muscache.com/im/pictures/be0957a9-da56-47d6-89ca-223b6e75321a.jpg?im_w=1440&im_q=highq"
+                        alt="">
+                </div>
+                <div class="datasec">
+                    <h1>Design your Incredibles Supersuit</h1>
+                    <p>Hosted by Edna Mode</p>
+                    <span><b>₹0</b> per guest</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <footer>
+        <div class="footerone">
+            <div class="footerhead">
+                <h1>Inspiration for future getaways</h1>
+            </div>
+            <div class="footdataone">
+                <ul>
+                    <li id="popular">Popular </li>
+                    <li>Arts & culture</li>
+                    <li>Outdoors</li>
+                    <li>Mountains</li>
+                    <li>Beach</li>
+                    <li>Unique stays</li>
+                    <li>Categories</li>
+                    <li>Things to do</li>
+                </ul>
+            </div>
+            <div class="footertwo">
+                <ul>
+                    <li>
+                        <h1>Canmore</h1>
+                        <p>Apartment rentals</p>
+                    </li>
+                    <li>
+                        <h1>Benalmádena</h1>
+                        <p>Flat rentals</p>
+                    </li>
+                    <li>
+                        <h1>Marbella</h1>
+                        <p>Cottage rentals</p>
+                    </li>
+                    <li>
+                        <h1>Mijas</h1>
+                        <p>Holiday rentals</p>
+                    </li>
+                    <li>
+                        <h1>Prescott</h1>
+                        <p>House rentals</p>
+                    </li>
+                    <li>
+                        <h1>Scottsdale</h1>
+                        <p>Holiday rentals</p>
+                    </li>
+                    <li>
+                        <h1>Tucson</h1>
+                        <p>Mansion pools</p>
+                    </li>
+                    <li>
+                        <h1>Jasper</h1>
+                        <p>Holiday rentals</p>
+                    </li>
+                    <li>
+                        <h1>Mountain View</h1>
+                        <p>House rentals</p>
+                    </li>
+                    <li>
+                        <h1>Devonport</h1>
+                        <p>Cottage rentals</p>
+                    </li>
+                    <li >
+                        <h1>Mallacoota</h1>
+                        <p>Pet-friendly rentals</p>
+                    </li>
+                    <li class="hi">
+                        <h1>Ibiza</h1>
+                        <p>Holiday rentals</p>
+                    </li>
+                    <li class="hi">
+                        <h1>Anaheim</h1>
+                        <p>Flat rentals</p>
+                    </li>
+                    <li class="hi">
+                        <h1>Monterey</h1>
+                        <p>Cottage rentals</p>
+                    </li>
+                    <li class="hi">
+                        <h1>Paso Robles</h1>
+                        <p>Cottage rentals</p>
+                    </li>
+                    <li class="hi">
+                        <h1>Santa Barbara</h1>
+                        <p>Cottage rentals</p>
+                    </li>
+                    <li class="hi">
+                        <h1>Sonoma</h1>
+                        <p>House rentals</p>
+                    </li>
+                    <li>
+                        <h1>Show more
+                            <img src="images/arrow_down.svg" alt="">
+                        </h1>
+                    </li>
+
+                </ul>
+            </div>
+        
+        
+
+            <div class="footerthree">
+                <div class="footdatathree">
+                    <div class="footdata">
+                        <ul id="underline">
+                            <h5>Support</h5>
+                            <li>Help Centre</li>
+                            <li>AirCover</li>
+                            <li>Anti-discrimination</li>
+                            <li>Disability support</li>
+                            <li>Cancellation options</li>
+                            <li>Report neighbourhood concern</li>
+                        </ul>
+                    </div>
+                   
+
+
+                    <div class="footdata">
+                        <ul id="underline">
+                            <h5>Hosting</h5>
+                            <li>Airbnb your home</li>
+                            <li>AirCover for Hosts</li>
+                            <li>Hosting resources</li>
+                            <li>Community forum</li>
+                            <li>Hosting responsibly</li>
+                            <li>Join a free Hosting class</li>
+                        </ul>
+                    </div>
+
+        
+        
+                    <div class="footdata">
+                        <ul>
+                            <h5>Airbnb</h5>
+                            <li>Newsroom</li>
+                            <li>New features</li>
+                            <li>Careers</li>
+                            <li>Investors</li>
+                            <li>Airbnb.org emergency stays</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                </div>
+        <div class="footerfour">
+                <div class="foot1">
+                    <ul>
+                        <li id ="at">© 2024 Airbnb, Inc.</li>
+                        <li> Privacy</li>
+                        <li>Terms</li>
+                        <li>Sitemap</li>
+                        <li>Company details</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot2">
+                <ul>
+                    <li id="globe">
+                        <img src="images/web.svg" alt="">
+                        English (IN)
+                    </li>
+                    <li><b>₹ </b> INR</li>
+                    <li>
+                        <img src="images/fb.svg" alt="">
+                        <img src="images/twitter.svg" alt="">
+                        <img src="images/insta.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    
+    </footer>
+
+    <div class="bmenu">
+        <div id="one">
+            <img src="images/search_long.svg" alt="">
+            <p>Explore</p>
+        </div>
+        <div>
+            <img src="images/heart.svg" alt="">
+            <p>Wishlists</p>
+        </div>
+        <div>
+            <img src="images/profile_outlined.svg" alt="">
+            <p>Log in</p>
+        </div>
+    </div>
+</body>
+
+</html>
